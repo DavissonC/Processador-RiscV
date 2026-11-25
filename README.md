@@ -13,11 +13,10 @@ Regras:
 - Nunca colocar um disco maior sobre um menor.
 - Utilizar a haste auxiliar para realizar a transferência.
 
-O número mínimo de movimentos é calculado por:
 
-```text
-2^n - 1
-```
+O número mínimo de movimentos é:
+
+**M(n) = 2^n - 1**
 
 O programa solicita a quantidade de discos e imprime os movimentos necessários.
 
